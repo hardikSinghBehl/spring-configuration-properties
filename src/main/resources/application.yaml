@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-configuration-properties
+  
+open-api:
+  title: Spring Configuration Properties
+  description: POC to demonstrate using @ConfigurationProperties vs @Value
+  api-version: 1.0.0
+  contact:
+    name: Hardik Singh Behl
+    email: behl.hardiksingh@gmail.com
+    url: https://www.linkedin.com/in/hardikSinghBehl
+  security:
+    scheme: bearer
+    name: AuthenticationBearer
+    bearer-format: JWT
