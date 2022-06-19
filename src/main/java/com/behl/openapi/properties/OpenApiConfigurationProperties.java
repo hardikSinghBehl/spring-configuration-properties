@@ -12,6 +12,9 @@ public class OpenApiConfigurationProperties {
 
 	@Data
 	public class OpenAPI {
+		/**
+		 * The title of the project
+		 */
 		private String title;
 		private String description;
 		private String apiVersion;
